@@ -1,0 +1,29 @@
+.oculto {
+    display: none
+}
+
+img .yo {
+    text-align: center;
+}
+
+h2+h2 {
+    page-break-before: always;
+}
+
+body {
+    text-align: center;
+    color: black;
+}
+
+ul li {
+    list-style: none;
+    page-break-inside: avoid;
+}
+
+.enlinea {
+    display: block;
+}
+
+#certificate1 {
+    background-color: red;
+}

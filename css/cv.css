@@ -1,0 +1,68 @@
+        h1 {
+            font-size: 1.8em;
+            color: gray;
+            height: 5px;
+        }
+        
+        h2 {
+            text-align: center;
+            font-size: 1.5em;
+            color: grey;
+            height: 10px;
+        }
+        
+        img .yo {
+            padding: 10px;
+            height: 230px;
+        }
+        
+        .certificado:hover {
+            background-color: #fafafa;
+            color: #5d4037;
+        }
+        
+        .circular {
+            border: solid 4px #d7ccc8;
+            border-radius: 15px;
+            padding: 3px;
+        }
+        
+        .circular:hover {
+            border: solid 4px grey;
+        }
+        
+        .circular2 {
+            border: solid 4px #d7ccc8;
+            border-radius: 15px;
+            padding: 3px;
+        }
+        
+        .circular2:hover {
+            border: solid 4px grey;
+        }
+        
+        .year {
+            color: #5d4037;
+            font-weight: bold;
+        }
+        
+        .brand {
+            color: #616161;
+        }
+        
+        .cafe {
+            color: #5d4037;
+        }
+        
+        #ver {
+            font-size: 1.5em;
+        }
+        
+        #ver:hover {
+            color: red;
+            font-size: 1.5em;
+        }
+        
+        .brand_item {
+            height: 15px;
+        }

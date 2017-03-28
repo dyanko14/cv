@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /images/
+Sitemap: https://dyanko14.github.io/cv/sitemap.xml

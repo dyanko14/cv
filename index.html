@@ -2,6 +2,8 @@
 <html lang="es">
 
 <head>
+    <!--Character Encoding-->
+    <meta charset="utf-8" />
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
@@ -14,47 +16,22 @@
     <link rel="shortcut icon" href="favicon.ico">
     <!--Meta Tags-->
     <meta name="author" content="Dyanko Cisneros Mendoza" />
-    <meta name="description" content="Currículum Vitae personal - Dyanko Cisneros Mendoza - Programador AudioVisual" />
-    <meta name="keywords" content="Extron AMX Biamp QSC Epiphan Polycom FTR Crestron" />
+    <meta name="description" content="Currículum Vitae personal - Dyanko Cisneros Mendoza - Programador Extron Biamp AMX QSC Polycom FTR Spinetix" />
+    <meta name="keywords" content="Extron Biamp AMX QSC Polycom FTR Spinetix" />
     <meta name="distribution" content="global" />
-    <!--Character Encoding-->
-    <meta charset="utf-8" />
+    <!--Social Network MetaTags-->
+    <meta name="twitter:card" value="summary">
+    <meta property="og:title" content="Dyanko Cisneros CV" />
+    <meta property="og:type" content="Web CV" />
+    <meta property="og:url" content="https://dyanko14.github.io/cv/" />
+    <meta property="og:image" content="https://dyanko14.github.io/cv/images/yo.png" />
+    <meta property="og:description" content="Description Here" />
+    <!--Title-->
     <title>Dyanko Cisneros CV</title>
-    <style>
-        .certificado:hover {
-            background-color: #fafafa;
-            color: #5d4037;
-        }
-        
-        .circular {
-            border: solid 4px #d7ccc8;
-            border-radius: 15px;
-            padding: 3px;
-        }
-        
-        .circular:hover {
-            border: solid 4px grey;
-        }
-        
-        .circular2 {
-            border: solid 4px #d7ccc8;
-            border-radius: 15px;
-            padding: 3px;
-        }
-        
-        .circular2:hover {
-            border: solid 4px grey;
-        }
-        
-        .year {
-            color: #5d4037;
-            font-weight: bold;
-        }
-        
-        .brand {
-            color: #616161;
-        }
-    </style>
+    <!--Local CSS-->
+    <link type="text/css" rel="stylesheet" href="css/cv.css" />
+    <!--Print CSS-->
+    <link type="text/css" rel="stylesheet" href="css/impresion.css" media="print" />
 </head>
 
 <body>
@@ -63,32 +40,35 @@
         <!--Section Profile-->
         <section class="col s12 m12 l4">
             <ul class="collection with-header hoverable" id="profile">
-                <div class="center-align "><img class="circle responsive-img animated pulse " src="images/yo.png " alt="profile_picture " style="padding: 20px " /></div>
-                <h1 style="font-size: 1.8em; color: gray" class="center-align">Dyanko Cisneros Mendoza</h1>
+                <div class="center-align">
+                    <img class="circle responsive-img animated yo" src="images/yo.png " alt="profile_picture " />
+                </div>
+                <h1 class="center-align">Dyanko Cisneros Mendoza</h1>
                 <li class="collection-item avatar certificado">
-                    <i class="material-icons circle blue">mood</i>
-                    <span style="color: #5d4037"><strong>26 años</strong></span>
+                    <i class="material-icons circle blue oculto">mood</i>
+                    <span class="cafe"><strong>26 años</strong></span>
                     <p>dyanko14@gmail.com</p>
                     <p>http://localhost/website/</p>
                 </li>
             </ul>
             <ul class="collection with-header hoverable" id="school">
-                <li class="collection-header center-align grey darken-3 white-text">
-                    <h5>Escolaridad</h5>
-                </li>
+                <h2>Escolaridad</h2>
                 <li class="collection-item avatar certificado">
-                    <i class="material-icons circle green ">done</i>
-                    <span style="color: #5d4037"><strong>2007 - 2009</strong></span>
-                    <p style="color: #5d4037">Universidad Tecnológica de Coahuila</p>
+                    <i class="material-icons circle green oculto">done</i>
+                    <span class="cafe"><strong>2007 - 2009</strong></span>
+                    <p class="cafe">Universidad Tecnológica de Coahuila</p>
                     <p>T.S.U en Tecnologías de Información y Comunicación</p>
                     <p><strong>Cédula:</strong> 6852644</p>
                 </li>
                 <li class="collection-item avatar certificado">
-                    <i class="material-icons circle red">school</i>
-                    <span style="color: #5d4037"><strong>2015- Actual</strong></span>
-                    <p style="color: #5d4037">Universidad De Guadalajara</p>
+                    <i class="material-icons circle red oculto">school</i>
+                    <span class="cafe"><strong>2015- Actual</strong></span>
+                    <p class="cafe">Universidad De Guadalajara</p>
                     <p>Lic. Tecnologías de Información (LTI)</p>
                 </li>
+            </ul>
+            <ul class="collection with-header hoverable" id="license">
+                <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Licencia de uso</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Dyanko Cisneros Mendoza</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional License</a>.
             </ul>
         </section>
 
@@ -97,16 +77,14 @@
             <ul class="collection with-header center-align hoverable" id="skills">
 
                 <!--AV Skills-->
-                <li class="collection-header grey darken-3 white-text">
-                    <h5>Conocimientos Audio - Video - Web</h5>
-                </li>
+                <h2>Conocimientos Audio - Video - Control - Web</h2>
                 <div class="center-align">
                     <br/>
-                    <div class="col s4 m3 l3">
+                    <div class="col s4 m3 l3 enlinea">
                         <i class="material-icons circular2">record_voice_over</i>
                         <p>Voceo</p>
                     </div>
-                    <div class="col s4 m3 l3">
+                    <div class="col s4 m3 l3 enlinea">
                         <i class="material-icons circular2">view_module</i>
                         <p>VideoWall</p>
                     </div>
@@ -191,17 +169,13 @@
             </ul>
 
             <!--Section Projects-->
-            <ul class="collection with-header left-align hoverable" id="certificate1">
-                <div class="col s6 m6 l9">
-                    <li class="collection-header center-align grey darken-3 white-text">
-                        <h5>Proyectos</h5>
-                    </li>
+            <ul class="collection with-header left-align hoverable oculto" id="certificate1">
+                <div class="col s6 m6 l10">
+                    <h2>Proyectos</h2>
                 </div>
-                <div class="col s6 m6 l3">
-                    <a href="proyectos.html">
-                        <li class="collection-header">
-                            <h5>Ver</h5>
-                        </li>
+                <div class="col s6 m6 l2">
+                    <a href="proyectos.html" id="ver">
+                        <p>Ver</p>
                     </a>
                 </div>
             </ul>
@@ -212,62 +186,60 @@
             <ul class="collection with-header left-align hoverable" id="certificate1">
 
                 <!--Section National-->
-                <li class="collection-header center-align grey darken-3 white-text">
-                    <h5>Certificaciones Nacionales</h5>
+                <h2>Certificaciones Nacionales</h2>
+
+                <li class="collection-item certificado">
+                    <div class="brand_item"><span class="year">2010</span> - CCTV Básico<a href="/cv/images/portfolio/cctv1.png" class="secondary-content" target="_blank" target="_blank"><i class="material-icons indigo-text oculto">zoom_in</i></a></div>
                 </li>
                 <li class="collection-item certificado">
-                    <div style="height: 15px "><span class="year">2010</span> - CCTV Básico<a href="#! " class="secondary-content "><i class="material-icons indigo-text">zoom_in</i></a></div>
+                    <div class="brand_item"><span class="year">2010</span> - CCTV IP Megapixel<a href="/cv/images/portfolio/cctv2.png" class="secondary-content" target="_blank"><i class="material-icons indigo-text oculto">zoom_in</i></a></div>
                 </li>
                 <li class="collection-item certificado">
-                    <div style="height: 15px "><span class="year">2010</span> - <span class="brand">AMX</span> Programmer 1<a href="#! " class="secondary-content "><i class="material-icons indigo-text">zoom_in</i></a></div>
+                    <div class="brand_item"><span class="year">2010</span> - <span class="brand">AMX</span> Programmer 1<a href="/cv/images/portfolio/amx1.png" class="secondary-content" target="_blank"><i class="material-icons indigo-text oculto">zoom_in</i></a></div>
                 </li>
                 <li class="collection-item certificado">
-                    <div style="height: 15px "><span class="year">2011</span> - <span class="brand">AMX</span> Installer 1<a href="#! " class="secondary-content "><i class="material-icons indigo-text">zoom_in</i></a></div>
+                    <div class="brand_item"><span class="year">2011</span> - <span class="brand">AMX</span> Installer 1<a href="/cv/images/portfolio/amx2.png" class="secondary-content" target="_blank"><i class="material-icons indigo-text oculto">zoom_in</i></a></div>
                 </li>
                 <li class="collection-item certificado">
-                    <div style="height: 15px "><span class="year">2011</span> - <span class="brand">AMX</span> Designer 1<a href="#! " class="secondary-content "><i class="material-icons indigo-text">zoom_in</i></a></div>
+                    <div class="brand_item"><span class="year">2011</span> - <span class="brand">AMX</span> Designer 1<a href="/cv/images/portfolio/amx3.png" class="secondary-content" target="_blank"><i class="material-icons indigo-text oculto">zoom_in</i></a></div>
                 </li>
                 <li class="collection-item certificado">
-                    <div style="height: 15px "><span class="year">2011</span> - <span class="brand">Polycom</span> HDX<a href="#! " class="secondary-content "><i class="material-icons indigo-text">zoom_in</i></a></div>
+                    <div class="brand_item"><span class="year">2011</span> - <span class="brand">Polycom</span> HDX<a href="/cv/images/portfolio/polycom.png" class="secondary-content" target="_blank"><i class="material-icons indigo-text oculto">zoom_in</i></a></div>
                 </li>
                 <li class="collection-item certificado">
-                    <div style="height: 15px "><span class="year">2011</span> - <span class="brand">Extron</span> Configurable Systems
-                        <a href="#! " class="secondary-content "><i class="material-icons indigo-text">zoom_in</i></a></div>
+                    <div class="brand_item"><span class="year">2011</span> - <span class="brand">Extron</span> Configurable Systems
+                        <a href="/cv/images/portfolio/extron1.png" class="secondary-content" target="_blank"><i class="material-icons indigo-text oculto">zoom_in</i></a></div>
                 </li>
                 <li class="collection-item certificado">
-                    <div style="height: 15px "><span class="year">2012</span> - <span class="brand">Extron</span> AV Associate<a href="#! " class="secondary-content "><i class="material-icons indigo-text">zoom_in</i></a></div>
+                    <div class="brand_item"><span class="year">2012</span> - <span class="brand">Extron</span> AV Associate<a href="/cv/images/portfolio/extron4.png" class="secondary-content" target="_blank"><i class="material-icons indigo-text oculto">zoom_in</i></a></div>
                 </li>
                 <li class="collection-item certificado">
-                    <div style="height: 15px "><span class="year">2012</span> - <span class="brand">Biamp</span> Nexia<a href="#! " class="secondary-content "><i class="material-icons indigo-text">zoom_in</i></a></div>
+                    <div class="brand_item"><span class="year">2012</span> - <span class="brand">Biamp</span> Nexia<a href="/cv/images/portfolio/nexia.png" class="secondary-content" target="_blank"><i class="material-icons indigo-text oculto">zoom_in</i></a></div>
                 </li>
                 <li class="collection-item certificado">
-                    <div style="height: 15px "><span class="year">2014</span> - <span class="brand">Extron</span> Emerging Technologies
-                        <a href="#! " class="secondary-content "><i class="material-icons indigo-text">zoom_in</i></a></div>
+                    <div class="brand_item"><span class="year">2014</span> - <span class="brand">Extron</span> Emerging Technologies
+                        <a href="/cv/images/portfolio/extron2.png" class="secondary-content" target="_blank"><i class="material-icons indigo-text oculto">zoom_in</i></a></div>
                 </li>
                 <li class="collection-item certificado">
-                    <div style="height: 15px "><span class="year">2014</span> - <span class="brand">Extron</span> Control Professional<a href="#! " class="secondary-content "><i class="material-icons indigo-text">zoom_in</i></a></div>
+                    <div class="brand_item"><span class="year">2014</span> - <span class="brand">Extron</span> Control Professional<a href="/cv/images/portfolio/extron3.png" class="secondary-content" target="_blank"><i class="material-icons indigo-text oculto">zoom_in</i></a></div>
                 </li>
                 <li class="collection-item certificado">
-                    <div style="height: 15px "><span class="year">2015</span> - <span class="brand">Extron</span> XTP Technician<a href="#! " class="secondary-content "><i class="material-icons indigo-text">zoom_in</i></a></div>
+                    <div class="brand_item"><span class="year">2015</span> - <span class="brand">Extron</span> XTP Technician<a href="/cv/images/portfolio/extron5.png" class="secondary-content" target="_blank"><i class="material-icons indigo-text oculto">zoom_in</i></a></div>
                 </li>
                 <li class="collection-item certificado">
-                    <div style="height: 15px "><span class="year">2015</span> - <span class="brand">Biamp</span> Tesira<a href="#! " class="secondary-content "><i class="material-icons indigo-text">zoom_in</i></a></div>
-                </li>
-                <li class="collection-item certificado">
-                    <div style="height: 15px "><span class="year">2016</span> - <span class="brand">Polycom</span> Real Presence<a href="#! " class="secondary-content "><i class="material-icons indigo-text">zoom_in</i></a></div>
+                    <div class="brand_item"><span class="year">2015</span> - <span class="brand">Biamp</span> Tesira<a href="/cv/images/portfolio/tesira.png" class="secondary-content" target="_blank"><i class="material-icons indigo-text oculto">zoom_in</i></a></div>
                 </li>
             </ul>
 
             <!--Section International-->
             <ul class="collection with-header left-align hoverable" id="certificate2">
-                <li class="collection-header center-align grey darken-3 white-text">
-                    <h5>Certificaciones Internacionales</h5>
+
+                <h2>Certificaciones Internacionales</h2>
+                <li class="collection-item certificado">
+                    <div class="brand_item"><span class="year">2014</span> - <span class="brand">Micropoint</span> Intrepid Series (USA)<a href="/cv/images/portfolio/southwest.png" class="secondary-content" target="_blank"><i class="material-icons indigo-text oculto">zoom_in</i></a></div>
                 </li>
                 <li class="collection-item certificado">
-                    <div style="height: 15px "><span class="year">2014</span> - <span class="brand">Micropoint</span> Intrepid Series (USA)<a href="#! " class="secondary-content "><i class="material-icons indigo-text">zoom_in</i></a></div>
-                </li>
-                <li class="collection-item certificado">
-                    <div style="height: 15px "><span class="year">2016</span> - <span class="brand">Extron</span> Python Scripter (USA)<a href="#! " class="secondary-content "><i class="material-icons indigo-text">zoom_in</i></a></div>
+                    <div class="brand_item"><span class="year">2016</span> - <span class="brand">Extron</span> Python Scripter (USA)<a href="/cv/images/portfolio/extron6.png" class="secondary-content" target="_blank"><i class="material-icons indigo-text oculto">zoom_in</i></a></div>
                 </li>
             </ul>
         </section>
@@ -281,7 +253,27 @@
             $(".button-collapse ").sideNav();
             $('.carousel').carousel();
         })
+
     </script>
+    <!-- Google Analytics -->
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-96366211-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+    <!-- End Google Analytics -->
 </body>
 
 </html>
